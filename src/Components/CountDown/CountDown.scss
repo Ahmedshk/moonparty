@@ -1,0 +1,145 @@
+.main_container {
+    .moon_landing_container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+
+        h3 {
+            color: #CDAC5A;
+        }
+
+        h1 {
+            color: white;
+            font-size: 55px;
+        }
+
+        .anniversary_starts {
+            color: grey;
+        }
+
+        .counter_container {
+            padding: 10px 20px;
+            border: 1px solid grey;
+            text-align: center;
+            width: 80px;
+            border-radius: 10px;
+
+            p {
+                color: white;
+                font-size: 20px;
+            }
+
+            span {
+                color: grey;
+                font-size: 12px;
+                font-weight: 500;
+            }
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 5px 20px;
+            border: none;
+            background-color: #EBCD81;
+            color: black;
+            border-radius: 10px;
+        }
+    }
+
+    .colon_container {
+        padding: 0px;
+        text-align: center;
+
+        span {
+            color: white;
+            font-size: 20px;
+        }
+    }
+
+}
+
+.modal_data {
+    text-align: center;
+
+    p {
+        color: white;
+        font-size: 27px;
+        margin-top: 25px;
+    }
+
+    span {
+        color: grey;
+        margin-top: 30px;
+    }
+
+    .icons_container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        align-items: center;
+        column-gap: 20px;
+        padding: 10px 20px;
+
+        .fb_container {
+            background-color: #113158;
+            border-radius: 50%;
+            padding: 15px 20px;
+
+        }
+
+        .twitter_container {
+            background-color: #1E3442;
+            border-radius: 50%;
+            padding: 15px 20px;
+        }
+    }
+
+    .clipboard_container {
+        border: 1px solid rgb(70, 65, 65);
+        padding: 3px 10px;
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        flex-flow: wrap;
+        justify-content: space-between;
+
+        div {
+
+            padding: 5px 0px;
+
+            p {
+                margin: 0;
+                font-size: 18px;
+                margin-left: 10px;
+                color: grey;
+
+            }
+
+            svg {
+                font-size: 25px;
+            }
+
+            button {
+                padding: 5px 20px;
+                border: none;
+                background-color: #EBCD81;
+                color: black;
+                border-radius: 20px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .clipboard_container {
+        div {
+            text-align: center;
+            width: 100%;
+        }
+    }
+}
